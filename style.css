@@ -1,0 +1,68 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(./assets/fonts/Outfit-VariableFont_wght.ttf);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    background: var(--light-gray);
+    font-family: Outfit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem;
+    max-height: 100dvh;
+}
+
+.container {
+    padding: 1rem;
+    background: var(--white);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 20em;
+}
+
+.title-text {
+    color: var(--dark-blue);
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.info-text {
+    color: var(--grayish-blue);
+    font-weight: 400;
+}
+
+.qr-img {
+    border-radius: 0.7rem;
+}
+
+.qr-image {
+    margin-bottom: 0.8rem;
+}
+
+.content {
+    text-align: center;
+    padding: 0.4rem;
+}
+
